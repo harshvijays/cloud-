@@ -1,0 +1,531 @@
+﻿Day 1:
+Cloud Computing
+        Case Study: Amazon Online E-commerce Application
+                        Online Application
+1. Available 
+2. Scalable
+3. Accessibility from a remote place
+
+
+                                
+                        Offline application
+                                Stand-alone application access by one user at a time
+                                        Desktop Application
+                                                Complete executable on the same machine
+
+
+                        Distributed Application
+                                Application-based on client and server model
+                                Connected Via Lan, Wan, Internet.
+                        192.168.1.45 :1521
+                        { ip address } { port number }
+                        =>Server( Thick Layer ) + Connectivity + client ( this Client )
+                                { Oracle Server }        { Lan }                { Sql plus }
+
+
+                        Application functionalities are distributed over the network
+                                UI functionality is a part of SQL plus
+                        
+
+
+
+
+What is DataCenter?
+Centralized Dedicated plate for 
+        Physical Computing resources
+
+
+Internet, extranet, and intranet are ways to deploy solutions.
+
+
+
+
+Cloud architecture
+Diff types of cloud
+Enterprise applications are hosted on servers.
+Enterprise applications are always GUI based.
+Online services and their architecture 
+      Ex: google online services
+
+
+NLB is used to balance traffic across two or more WAN links without using complex routing protocols like BGP.
+
+
+Web Form: Logical collection of multiple servers
+
+
+Computing: storage, processing, and connectivity. { CPU + GPU, RAM, NETWORK }
+Collectively utilization of the resources is known as cloud computing. 
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Application: 
+
+
+Servers: 
+
+
+Service: All the background processes that are running on the system on a particular port number which are automatically spawned and can be stopped and started by the administrator are known as service.
+
+
+Firmware has RTOS.  { Real-Time Operating System } 
+
+
+HAL { Hardware Abstraction LAyer } 
+
+
+
+
+Process, threads, semaphores, critical section etc are kernel objects.
+
+
+The process always allocates resources
+
+
+Primary thread loads the JVM 
+
+
+Java.exe and class file will lead to invoking of the primary thread by the operating system which will invoke the JVM.
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Terms used in Day 1 :
+1. In-bound 
+2. .out-bound
+3. .Service
+4. Internet
+5. Intranet
+6. Extranet
+7. Distributed application
+8.  Servers
+9.  Legacy Application
+10.  Desktop Application
+11.  Web Server
+12.  Scale-out
+13. VPN
+14. SSL
+15. Data Center
+16. Private Data Center
+17. Cluster IP address
+18. Centralized Server
+19. Distributed Server
+20.  Public Datacenter
+21. capacity planning phase
+22. .ERP
+23. Token  
+24. Header
+25. SSL certificates
+26. Public key
+27. Impulsination
+28. NLB { Network Load Balancer }
+29. Application server
+30. Native API
+31. Altos
+32. RTOS
+33. Firmware
+34. Scheduling
+35. Scheduler
+36. Controller
+37.  Types of scheduling
+38. HAL
+39. ECM 
+40. BI
+41. Workflow
+42. Enterprise Search
+43. Auto-provision
+44. Hadoop Cluster
+45. Actual binary files are present in the virtualization
+46. Bare metal hypervisor
+47. TApe Drive
+48. RAID
+49. BPM
+50. Microservices
+51. Restful APIs
+52. Virtual network
+53. Virtual network adaptor
+54. NIC
+55. Execution environment [ Execution Engine ]
+56. Guest OS
+57. Runtime Environment [ java runtime, python runtime, c++ runtime, etc ]
+58. Network virtualization
+59. Physical environment
+60. Container
+61. Container Engine
+62. Memory Map Engine
+63. ClassLoader
+64. Byte Code Verifier
+65. Runtime
+66. Platform
+67. Infrastructure issues
+68. Code Repository
+69. Maven
+70. NPL 
+71. Compile programming vs interpreted programming
+72. Compiler vs interpreter
+73. Thread pool
+74. System thread
+75. Non-blocking  API
+76. Lambda function
+77.  Shadowing
+78. Log shipping 
+79. Parallel multi-tasking
+80. Sequential multi-tasking
+81. Resilience [ concept in HPC ] 
+82. Capacity Planning 
+83. Multi-threading
+84. Symmetric multiprocessing in java
+85. Parallel processing in java
+86. Study os, scheduling, machine learning algorithms 
+87. Open ap library
+88. Open MP library of C++ for achieving parallel processing
+89. #pragma omp [ used in c++ and the function written inside the pragma omp will be operated in parallel processing ]
+90. Pool.map [ concept in python ]
+91. Kubernetes
+92. Xen architect
+93. Hypervisor
+94. 
+
+
+
+
+
+Day 2:
+Google Online Services
+Google Suite 
+                Doc
+                Slides        
+                Sites
+                { public sites and private sites }
+                WCM
+Enterprise Applications using Online services  portal
+                Web site management
+                { Web provisioning }
+ECM { Enterprise Content Management }
+                Documents
+                Lists
+                Reports
+                Dashboard
+
+
+
+
+
+
+
+
+EI { Enterprise Interface }
+Table
+Scorecards
+Charts
+Dashboard        
+
+
+BPM { Business Process Management }
+        Automatic Process Automation
+        Set of Workflows running in the background
+
+
+Enterprise Search
+        Shared service
+                Background service
+        Running with the help of the cluster
+
+
+Cluster
+        More than one instance of the same application server on multiple nodes
+
+
+Enterprise Applications features can be provided through a private cloud
+Or using a public cloud or hybrid cloud
+
+
+The requirement for multiple servers to be run in separate isolated environments on the same physical infrastructure.
+
+
+Virtualization :
+                Hypervisor(vhdx)
+                 Virtual machine
+                        Vcpu, VRAM, virtual hard disk, virtual network used for efficient of higher-end hardware among multiple virtual machines.
+
+
+Google Online services
+                        Sites,docs,sheets,etc.
+Google Online Compute Services:
+                        Storage Service
+
+
+
+
+
+
+
+
+        Office 365 [ SAAS ]
+        Microsoft azure
+AWS Cloud 
+        Free trial subscription
+
+
+
+
+Day 3:
+        JVM is a DLL { dynamic link library .dll }
+        MAVEN Tool is used to downloading the jar files from the code repository
+        JVM is automatically invoked by java.exe when the java process is started and
+        A  primary thread is created which will invoke the JVM.
+
+
+
+
+Build platform for deploying Java, Node JS, .net core Application on AWS Cloud.
+
+
+1.Login to AWS Console using Internet Connection.
+
+
+2.Create new AWS EC2 instance of ubuntu OS with standard Machine type.
+
+
+3.Access newly created EC2 instance of ubuntu remotely using SSH client or Putty         client.
+
+
+4.Get Connected to remote instance of EC2 of your Subscription
+
+
+5. Install mysql database on ec2 instance with administrative privileges.
+
+
+6.Configure MySQL Database Service on Ubuntu EC2 instance.
+
+
+7.Install Java runtime inside EC2 instance.
+
+
+8. Test simple hello world java program execution on java runtime.
+
+
+9. Install Node JS runtime inside EC2 instance.
+
+
+10.Test simple file io program using node.js for making files and writing files.
+
+
+11. Create a simple Web-based Application in EC2 instance where node js is installed along   with Express Library.
+
+
+12. Start Node js Application.
+
+
+13. Allow firewalls of ec2 instance for accepting requests from anywhere coming from internet.
+
+
+14. Access published Website in AWS Cloud using your own website.
+
+
+Install library
+sudo apt install default-jre
+sudo apt install openjdk-11-jre-headless
+sudo apt install openjdk-8-jre-headless
+sudo apt install nodejs
+sudo apt install npm
+npm i jimp
+
+
+
+
+
+
+Server  
+        Server is a listener which keeps listening to incoming requests(Requests can be http,tcp)
+        Start
+        Register the function
+        Wait for the request
+If a request comes then Translate and Call the respective function and then again wait for the request
+
+
+Business Application - Platform Centric  
+
+
+{ .dll is platform specific }
+ 
+
+
+Virtualization
+Why, how, pros and cons of virtualization
+Types
+Cloud and virtualization
+AWS Features
+
+
+Day 4:
+
+
+Middleware: Middleware is layer above OS used to run application.( formed using runtime server and packages)
+
+
+
+
+Web[a] Service: A business logic accessible via internet using standard internet protocol[b][c][d][e][f][g]
+
+
+Containers
+
+
+Server less Application
+Docker : Docker is linux compatible background service.
+Docker container service
+Kubernetes
+PAAS
+EC2 instance
+
+
+Day 5:
+HPC [High-Performance Computing ]
+Parallel programming
+
+
+A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Server Program
+
+
+var fs=require('fs')
+var url=require('url')
+var http=require('http')
+
+
+
+
+var onCreateServer=function(request,response){
+                console.log("Successful Secured Server");
+
+
+                var pathname=url.parse(request.url).pathname;
+
+
+                fs.readFile(pathname.substr(1),function(err,data){
+                response.writeHead(200,{'Content-Type':'txt/html'});
+                response.write(data);
+                response.end();
+
+
+                console.log("Response is send")
+                });
+};
+
+
+var server=http.createServer(onCreateServer);
+
+
+server.listen(9000);
+
+
+console.log("Server is listening on port 9000");
+
+
+
+
+Docker Commands:
+
+
+Install Docker :  $ sudo apt install docker.io
+
+
+Check Version: $ sudo docker -v
+
+
+Start Docker: $ sudo systemctl start docker
+
+
+Docker Status: $ sudo systemctl status docker
+
+
+Check Images: $sudo docker images
+
+
+Download nginx server : $ sudo docker pull nginx
+ 
+Run Nginx Image: $docker run --name some-nginx -d -p 8080:80 nginx
+
+
+Create a folder for python application
+
+
+Write a python code 
+
+
+Create a Docker File: FROM python
+COPY . /src
+CMD ["python","/src/index.py"]
+
+
+Building image: $ sudo docker build -t pyapp .[h][i][j] 
+
+
+Run Docker Python Image: $ sudo docker run --name pyapp pyapp
+
+
+https://github.com/RaviTambade/containerapps.git
+
+
+ 
+Study plan for cloud computing :-
+
+
+1. Collect all content 
+2. Collect all videos and folder
+3. Follow day wise breakup set your notes
+4. Get instructional set provided during training by instructor
+5. First watch video
+6. Hands on model: complete the assignment [ every practical ]
+7. Notes reading
+8. Check mcqs
+
+
+
+
+
+
+Faculty info:- 
+ravi.tambade@transflower.in
+9881735001
+
+
+[a]Learn machine learning algorithms , data structure, and operating system
+[b]service is a business logic
+[c]yes mate
+[d]ofcourse it is
+[e]it is what it is
+[f]is it ?
+[g]yes ofcourse it is
+[h]installs runtime....pyapp is the name of the folder which contains Dockerfile and python script
+[i]_Marked as resolved_
+[j]_Re-opened_
+ok
